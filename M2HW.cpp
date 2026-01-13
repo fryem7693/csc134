@@ -8,12 +8,14 @@ Mark Frye
 #include <iomanip> 
 using namespace std; 
 int main() {
+   
     //declare variables 
     int starting_account_balance = 1000.00;
     int amount_deposited;
     int amount_withdrawn;
     string name_on_account;
     double final_account_balance; 
+   
     //get user input 
     cout << "Enter the name on the Account: " <<endl; 
     cin >> name_on_account;
@@ -26,8 +28,10 @@ int main() {
     cin >> amount_deposited;
     cout << "Enter the amount to be withdrawn: $" << endl;
     cin >> amount_withdrawn;
+   
     //calcutae final account balance 
     final_account_balance = starting_account_balance + amount_deposited - amount_withdrawn;
+    
     //display final account balance 
     cout << setprecision(2) << fixed;
     cout << "Account holder Name: " << name_on_account << endl; //name on the account
