@@ -205,7 +205,7 @@ void question3()
                     cout << "You and your party make your way to the cave, facing various challenges along the way. After a tense confrontation with the thief who stole the artifact, you successfully retrieve it and return it to the grateful stranger in the tavern. ";
                     cout << "Your heroic deeds earn you fame and fortune in the village!\n";
                 } 
-                if (game_choice2 == 2) 
+                else if (game_choice2 == 2) 
                 {
                     cout << "You and your party decide to stay in the village and enjoy the hospitality of the locals. You spend your days exploring the village, making new friends, and indulging in delicious food and drink. ";
                     cout << "While you may not have gone on an adventure, you created lasting memories and forged strong bonds with the villagers!\n";
